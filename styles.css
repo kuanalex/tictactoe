@@ -53,3 +53,12 @@ button {
     padding: 0 8rem;
 }
 
+.gameboard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 454px;
+    height: 454px;
+    border: 2px solid var(--border-color);
+    margin: 0px auto;
+}
+
