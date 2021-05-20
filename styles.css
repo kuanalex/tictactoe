@@ -118,3 +118,35 @@ button {
 .restart-button:focus {
     outline: none;
 }
+
+@media (max-width: 660px) {
+    html {
+        font-size: 41%;
+    }
+
+    .gameboard {
+        width: 304px;
+        height: 304px;
+    }
+
+    .field {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 440px) {
+    html {
+        font-size: 29%;
+    }
+
+    .gameboard {
+        width: 214px;
+        height: 214px;
+    }
+
+    .field {
+        width: 70px;
+        height: 70px;
+    }
+}
