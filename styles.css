@@ -37,3 +37,19 @@ button {
     background-color: var(--header-background-color);
     color: var(--header-font-color);
 }
+
+.title {
+    font-size: 6rem;
+    text-align: center;
+}
+
+.message {
+    padding: 20px;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.main {
+    padding: 0 8rem;
+}
+
