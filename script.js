@@ -41,5 +41,12 @@ const displayController = (() => {
     const messageElement = document.getElementById("message");
     const restartButton = document.getElementById("restart-button");
 
+})();
+
+const gameController = (() => {
+    const playerX = Player("X");
+    const playerO = Player("O");
+    let round = 1;
+    let isOver = false;
 
 })();
