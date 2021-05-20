@@ -35,3 +35,11 @@ const gameBoard = (() => {
         reset
     };
 })();
+
+const displayController = (() => {
+    const fieldElements = document.querySelectorAll(".field");
+    const messageElement = document.getElementById("message");
+    const restartButton = document.getElementById("restart-button");
+
+
+})();
