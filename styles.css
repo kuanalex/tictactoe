@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background-color: var(--background-color);
+    color: var(--font-color);
+    font-family: var(--font);
+    font-size: 62.5%;
+    line-height: 1.6;
+}
